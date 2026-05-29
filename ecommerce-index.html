@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ELEVATE - Premium Fashion E-Commerce. Moda sofisticada, peças exclusivas e design moderno.">
+  <title>ELEVATE - Premium Fashion Store</title>
+  <link rel="stylesheet" href="ecommerce-styles.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">ELEVATE</a>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#produtos" class="nav-link">Produtos</a></li>
+        <li class="nav-item"><a href="#promocao" class="nav-link">Promoção</a></li>
+        <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li class="nav-item"><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+        <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Moda que Inspira Elegância</h1>
+      <p class="hero-subtitle">Descubra nossa coleção exclusiva de roupas premium. Design minimalista, conforto máximo.</p>
+      <div class="hero-buttons">
+        <button class="btn btn-primary scroll-btn" data-target="#produtos">Ver Coleção</button>
+        <button class="btn btn-secondary">Comprar Agora</button>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=800&q=80" alt="Modelo veste roupas premium">
+    </div>
+  </section>
+
+  <!-- MARCA -->
+  <section id="marca" class="marca">
+    <div class="container">
+      <div class="marca-content">
+        <div class="marca-text">
+          <h2 class="section-title">Quem Somos</h2>
+          <p class="section-subtitle">Uma marca dedicada à excelência em moda contemporânea</p>
+          <p class="marca-description">ELEVATE é mais do que uma marca de roupas. Somos um movimento que celebra a elegância, a sofisticação e a autenticidade. Cada peça é cuidadosamente selecionada para refletir o estilo de vida moderno, premium e consciente.</p>
+          <div class="marca-features">
+            <div class="feature">
+              <div class="feature-icon">✓</div>
+              <span>Materiais Premium</span>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">✓</div>
+              <span>Design Exclusivo</span>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">✓</div>
+              <span>Entrega Rápida</span>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">✓</div>
+              <span>Atendimento Premium</span>
+            </div>
+          </div>
+        </div>
+        <div class="marca-image">
+          <img src="img/elevate.jpeg"alt="Coleção premium de moda">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUTOS EM DESTAQUE -->
+  <section id="produtos" class="produtos">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Coleção em Destaque</h2>
+        <p class="section-subtitle">Peças selecionadas para elevar seu estilo</p>
+      </div>
+
+      <div class="categorias-filter">
+        <button class="categoria-btn active" data-category="todos">Todos</button>
+        <button class="categoria-btn" data-category="masculino">Masculino</button>
+        <button class="categoria-btn" data-category="feminino">Feminino</button>
+        <button class="categoria-btn" data-category="streetwear">Streetwear</button>
+        <button class="categoria-btn" data-category="premium">Premium</button>
+      </div>
+
+      <div class="produtos-grid">
+        <!-- Produto 1 -->
+        <article class="produto-card" data-category="masculino">
+          <div class="produto-image">
+            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=80" alt="Camiseta Premium Masculina">
+            <div class="produto-overlay">
+              <button class="btn btn-primary">Adicionar ao Carrinho</button>
+            </div>
+          </div>
+          <div class="produto-info">
+            <h3 class="produto-nome">Camiseta Oversized Premium</h3>
+            <p class="produto-categoria">Masculino</p>
+            <div class="produto-preco">
+              <span class="preco-atual">R$ 189,90</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produto 2 -->
+        <article class="produto-card" data-category="feminino">
+          <div class="produto-image">
+            <img src="img/Vestido Midi Elegante.jpg" alt="Vestido Elegante Feminino">
+            <div class="produto-overlay">
+              <button class="btn btn-primary">Adicionar ao Carrinho</button>
+            </div>
+          </div>
+          <div class="produto-info">
+            <h3 class="produto-nome">Vestido Midi Elegante</h3>
+            <p class="produto-categoria">Feminino</p>
+            <div class="produto-preco">
+              <span class="preco-atual">R$ 299,90</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produto 3 -->
+        <article class="produto-card" data-category="streetwear">
+          <div class="produto-image">
+            <img src="img/Jaqueta Streetwear Urbana.jpg" alt="Jaqueta Streetwear">
+            <div class="produto-overlay">
+              <button class="btn btn-primary">Adicionar ao Carrinho</button>
+            </div>
+          </div>
+          <div class="produto-info">
+            <h3 class="produto-nome">Jaqueta Streetwear Urbana</h3>
+            <p class="produto-categoria">Streetwear</p>
+            <div class="produto-preco">
+              <span class="preco-atual">R$ 349,90</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produto 4 -->
+        <article class="produto-card" data-category="premium">
+          <div class="produto-image">
+            <img src="img/Blazer Executivo Premium.jpg" alt="Blazer Premium">
+            <div class="produto-overlay">
+              <button class="btn btn-primary">Adicionar ao Carrinho</button>
+            </div>
+          </div>
+          <div class="produto-info">
+            <h3 class="produto-nome">Blazer Executivo Premium</h3>
+            <p class="produto-categoria">Premium</p>
+            <div class="produto-preco">
+              <span class="preco-atual">R$ 589,90</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produto 5 -->
+        <article class="produto-card" data-category="feminino">
+          <div class="produto-image">
+            <img src="img/Jeans High Waist Slim.jpeg" alt="Jeans Feminino">
+            <div class="produto-overlay">
+              <button class="btn btn-primary">Adicionar ao Carrinho</button>
+            </div>
+          </div>
+          <div class="produto-info">
+            <h3 class="produto-nome">Jeans High Waist Slim</h3>
+            <p class="produto-categoria">Feminino</p>
+            <div class="produto-preco">
+              <span class="preco-atual">R$ 229,90</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produto 6 -->
+        <article class="produto-card" data-category="masculino">
+          <div class="produto-image">
+            <img src="img/Calça Social Slim Fit.jpg" alt="Calça Social Masculina">
+            <div class="produto-overlay">
+              <button class="btn btn-primary">Adicionar ao Carrinho</button>
+            </div>
+          </div>
+          <div class="produto-info">
+            <h3 class="produto-nome">Calça Social Slim Fit</h3>
+            <p class="produto-categoria">Masculino</p>
+            <div class="produto-preco">
+              <span class="preco-atual">R$ 249,90</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produto 7 -->
+        <article class="produto-card" data-category="streetwear">
+          <div class="produto-image">
+            <img src="img/Moletom Oversize Urban.jpg" alt="Moletom Streetwear">
+            <div class="produto-overlay">
+              <button class="btn btn-primary">Adicionar ao Carrinho</button>
+            </div>
+          </div>
+          <div class="produto-info">
+            <h3 class="produto-nome">Moletom Oversize Urban</h3>
+            <p class="produto-categoria">Streetwear</p>
+            <div class="produto-preco">
+              <span class="preco-atual">R$ 179,90</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produto 8 -->
+        <article class="produto-card" data-category="premium">
+          <div class="produto-image">
+            <img src="img/Camisa de Seda Premium.jpg" alt="Camisa Premium">
+            <div class="produto-overlay">
+              <button class="btn btn-primary">Adicionar ao Carrinho</button>
+            </div>
+          </div>
+          <div class="produto-info">
+            <h3 class="produto-nome">Camisa de Seda Premium</h3>
+            <p class="produto-categoria">Premium</p>
+            <div class="produto-preco">
+              <span class="preco-atual">R$ 449,90</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROMOÇÃO -->
+  <section id="promocao" class="promocao">
+    <div class="promocao-content">
+      <div class="promocao-text">
+        <span class="promocao-badge">Promoção Especial</span>
+        <h2 class="promocao-title">Desconto de até 50%</h2>
+        <p class="promocao-subtitle">Na coleção selecionada. Apenas esta semana!</p>
+        <button class="btn btn-secondary">Aproveitar Oferta</button>
+      </div>
+      <div class="promocao-image">
+        <img src="img/oferta.jpeg" alt="Promoção especial">
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE A MARCA -->
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <div class="sobre-content">
+        <div class="sobre-image">
+          <img src="img/sobre.jpg" alt="Sobre ELEVATE">
+        </div>
+        <div class="sobre-text">
+          <h2 class="section-title">Sobre ELEVATE</h2>
+          <p class="section-subtitle">Mais que uma marca, um movimento de estilo</p>
+          
+          <p class="sobre-paragraph">Fundada em 2020, ELEVATE nasceu da paixão por design sofisticado e moda consciente. Acreditamos que cada peça deve contar uma história e refletir a personalidade única de quem a veste.</p>
+
+          <p class="sobre-paragraph">Nossa missão é oferecer roupas premium com design inovador, materiais de qualidade superior e um atendimento excepcional. Cada coleção é cuidadosamente desenvolvida para atender aos padrões mais altos de elegância moderna.</p>
+
+          <div class="sobre-stats">
+            <div class="stat">
+              <div class="stat-number">15K+</div>
+              <div class="stat-label">Clientes Satisfeitos</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">50+</div>
+              <div class="stat-label">Peças Exclusivas</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">4.9★</div>
+              <div class="stat-label">Avaliação Média</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section id="depoimentos" class="depoimentos">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">O que Nossos Clientes Dizem</h2>
+        <p class="section-subtitle">Histórias reais de quem escolheu ELEVATE</p>
+      </div>
+
+      <div class="depoimentos-grid">
+        <article class="depoimento-card">
+          <div class="depoimento-stars">★★★★★</div>
+          <p class="depoimento-texto">"A qualidade das roupas é excepcional. Sinto-me confiante e elegante usando os produtos da ELEVATE. Entrega rápida e atendimento impecável!"</p>
+          <div class="depoimento-autor">
+            <div class="autor-avatar">AC</div>
+            <div>
+              <div class="autor-nome">Ana Carolina</div>
+              <div class="autor-info">Cliente verificada</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="depoimento-card">
+          <div class="depoimento-stars">★★★★★</div>
+          <p class="depoimento-texto">"Procurava peças premium com design moderno. A ELEVATE superou minhas expectativas. Virou minha loja favorita de moda!"</p>
+          <div class="depoimento-autor">
+            <div class="autor-avatar">MF</div>
+            <div>
+              <div class="autor-nome">Marcos Felipe</div>
+              <div class="autor-info">Cliente verificado</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="depoimento-card">
+          <div class="depoimento-stars">★★★★★</div>
+          <p class="depoimento-texto">"Cada detalhe é pensado com cuidado. As roupas são confortáveis, duráveis e com estilo. Recomendo para todos que buscam qualidade!"</p>
+          <div class="depoimento-autor">
+            <div class="autor-avatar">IS</div>
+            <div>
+              <div class="autor-nome">Isabella Silva</div>
+              <div class="autor-info">Cliente verificada</div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO / FOOTER -->
+  <footer id="contato" class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3 class="footer-title">ELEVATE</h3>
+          <p class="footer-description">Moda premium para quem valoriza estilo e qualidade.</p>
+          <div class="footer-social">
+            <a href="https://instagram.com" class="social-link" title="Instagram">📱</a>
+            <a href="https://wa.me" class="social-link" title="WhatsApp">💬</a>
+            <a href="mailto:contato@elevate.com" class="social-link" title="Email">✉️</a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h4 class="footer-subtitle">Navegação</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4 class="footer-subtitle">Informações</h4>
+          <ul class="footer-links">
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Termos de Serviço</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Devoluções</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4 class="footer-subtitle">Contato</h4>
+          <p class="footer-contact">📧 contato@elevate.com</p>
+          <p class="footer-contact">📞 (11) 9999-9999</p>
+          <p class="footer-contact">📍 São Paulo, SP</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 ELEVATE. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="ecommerce-script.js"></script>
+</body>
+</html>
