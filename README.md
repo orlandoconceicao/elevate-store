@@ -1,6 +1,6 @@
-# 🌐 ELEVATE — Premium Fashion Store
+# ELEVATE — Premium Fashion Store
 
-[🚀 Visualizar Projeto Online](https://elevatestore.vercel.app/)
+[ Visualizar Projeto Online](https://elevatestore.vercel.app/)
 
 Projeto de e-commerce moderno e responsivo focado em **moda premium e experiência visual sofisticada**.
 
@@ -8,7 +8,7 @@ A aplicação apresenta catálogo de produtos, promoções, seções institucion
 
 ---
 
-# 🚀 Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 - **HTML5**
 - **CSS3**
@@ -20,7 +20,7 @@ A aplicação apresenta catálogo de produtos, promoções, seções institucion
 
 ---
 
-# 🏗 Estrutura do Projeto
+# Estrutura do Projeto
 
 ```bash
 elevate-store/
@@ -46,7 +46,7 @@ elevate-store/
 
 ---
 
-# 🎯 Objetivo do Projeto
+# Objetivo do Projeto
 
 - Praticar desenvolvimento de interfaces modernas
 - Aplicar estilização avançada com CSS3
@@ -57,7 +57,7 @@ elevate-store/
 
 ---
 
-# ⚙ Funcionalidades do Site
+# Funcionalidades do Site
 
 ✔ Navbar fixa com scroll suave  
 ✔ Menu mobile responsivo  
@@ -73,7 +73,7 @@ elevate-store/
 
 ---
 
-# 🛍 Catálogo de Produtos
+# Catálogo de Produtos
 
 O sistema apresenta produtos organizados por categorias:
 
@@ -92,7 +92,7 @@ Cada produto contém:
 
 ---
 
-# ✨ Interações JavaScript
+# Interações JavaScript
 
 O projeto utiliza JavaScript para:
 
@@ -107,7 +107,7 @@ O projeto utiliza JavaScript para:
 
 ---
 
-# 🎨 Design e Estilo
+# Design e Estilo
 
 O layout foi desenvolvido com foco em:
 
@@ -128,7 +128,7 @@ Paleta principal:
 
 ---
 
-# 📱 Responsividade
+# Responsividade
 
 O projeto é totalmente responsivo para:
 
@@ -153,7 +153,7 @@ Breakpoints principais:
 
 ---
 
-# 🧠 Conceitos Aplicados
+# Conceitos Aplicados
 
 ✔ Estruturação semântica HTML5  
 ✔ Layout moderno com Grid e Flexbox  
@@ -166,7 +166,7 @@ Breakpoints principais:
 
 ---
 
-# 🌐 Possíveis Melhorias Futuras
+# Possíveis Melhorias Futuras
 
 - Integração com backend
 - Sistema real de carrinho
@@ -181,10 +181,10 @@ Breakpoints principais:
 
 ---
 
-# 👨‍💻 Autor
+# Autor
 
 **Orlando Conceição**  
 
 Front-End & Backend Developer  
 
-📧 orlandoconceicao94@gmail.com
+contato: orlandoconceicao94@gmail.com
