@@ -59,17 +59,17 @@ elevate-store/
 
 # Funcionalidades do Site
 
-✔ Navbar fixa com scroll suave  
-✔ Menu mobile responsivo  
-✔ Hero section premium  
-✔ Sistema de filtro por categorias  
-✔ Cards de produtos animados  
-✔ Promoções em destaque  
-✔ Seção institucional  
-✔ Depoimentos de clientes  
-✔ Notificações interativas  
-✔ Contadores animados  
-✔ Layout totalmente responsivo  
+- Navbar fixa com scroll suave
+- Menu mobile responsivo
+- Hero section premium
+- Sistema de filtro por categorias
+- Cards de produtos animados
+- Promoções em destaque
+- Seção institucional
+- Depoimentos de clientes
+- Notificações interativas
+- Contadores animados
+- Layout totalmente responsivo
 
 ---
 
@@ -155,14 +155,14 @@ Breakpoints principais:
 
 # Conceitos Aplicados
 
-✔ Estruturação semântica HTML5  
-✔ Layout moderno com Grid e Flexbox  
-✔ Responsividade avançada  
-✔ Manipulação do DOM  
-✔ Animações CSS  
-✔ UX/UI Design  
-✔ Organização de componentes front-end  
-✔ Landing Pages Premium  
+- Estruturação semântica HTML5
+- Layout moderno com Grid e Flexbox
+- Responsividade avançada
+- Manipulação do DOM
+- Animações CSS
+- UX/UI Design
+- Organização de componentes front-end
+- Landing pages premium
 
 ---
 
@@ -181,10 +181,10 @@ Breakpoints principais:
 
 ---
 
-# Autor
+## Autor
 
-**Orlando Conceição**  
+**Orlando Conceição Vilhalba de Almeida**
 
-Front-End & Backend Developer  
+Desenvolvedor Backend em formação, desenvolvendo também interfaces web responsivas com HTML, CSS e JavaScript.
 
-contato: orlandoconceicao94@gmail.com
+GitHub: [orlandoconceicao](https://github.com/orlandoconceicao)
